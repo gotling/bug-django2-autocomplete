@@ -3,8 +3,8 @@ Show how autocomplete for relations don't work when adding a new line to inline 
 
 ## Versions
 
-Django: 2.0rc1
-Python: 3.5
+- Django: 2.0rc1
+- Python: 3.5
 
 ## Expected behaviour
 
@@ -22,20 +22,21 @@ Nothing happens
 
 1. Install dependencies
 
-    pip install -r requirements.txt
+    `pip install -r requirements.txt`
 
 2. Start Django server
 
-    ./manage.py runserver
+    `./manage.py runserver`
 
-3. Open Admin in web browser
+3. Open Item in Django Admin
 
     http://127.0.0.1:8000/admin/autocomplete/item/1/change/
 
 4. Login
 
-    Username: djangoproject
-    Password: djangoproject
+    Username: **djangoproject**
+    
+    Password: **djangoproject**
 
 5. Under *Line Items* click on select field *Category*
 
